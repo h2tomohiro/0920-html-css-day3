@@ -32,6 +32,17 @@ body {
 
     display: flex;
     align-items: stretch;
+    background: lightblue;
+    color: darkblue;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.pizza:hover {
+    color: #FFCC66;
+    box-shadow: 20px 10px 5px #FFCC66;
+    opacity: 1.0;
+    transform: scale(1.3, 1.3) rotateX(360deg);
 }
 
 .pizza__hero{
@@ -116,4 +127,3 @@ body {
     font-size: 20px;
     margin-right: 3px;
 }
-
